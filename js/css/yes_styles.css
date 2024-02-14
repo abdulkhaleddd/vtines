@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #ffdcf7;
+  background-image: url("pinkflowers-removebg-preview.png");
+  background-repeat: repeat-x;
+  background-position: top;
+  background-size: auto;
+}
+
+#title-container {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  color: #b65fcf;
+}
+
+#love-hearts-left img,
+#love-hearts-right img {
+  width: 15vw;
+  height: auto;
+  object-fit: cover;
+}
+
+#fist-bump-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#fist-bump-image img {
+  width: 500px;
+  height: auto;
+  display: inline-block;
+}
+
+#love-hearts-left,
+#love-hearts-right {
+  position: absolute;
+  top: 200%;
+  transform: translateY(-50%);
+}
+
+#love-hearts-left {
+  left: 0vw; /* Responsive spacing from the left */
+}
+
+#love-hearts-right {
+  right: 0vw; /* Responsive spacing from the right */
+}
